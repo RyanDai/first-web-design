@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+	<title>Kiboko travel agency</title>
+	<link rel="stylesheet" href="css/style.css" type='text/css' >
+	<script src="js/booking.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id = smallbanner>
+		<img class="logo" src="Images/newlogo2.png" alt="logo">
+		<p id = phoneNumber>Phone:07 1441 2882</p>
+		<h3>Booking a trip</h3>
+	</div>
+	
+	<div id = container>
+		<div id = menu>
+			<nav>
+				<ul>
+					<li id = "menuli"><p class = "underlinetext">Tours</p>
+						<ul>
+							<li><a href = "liontour.html">Lion tour</a></li>
+							<li><a href = "zebratour.html">Zebra tour</a></li>
+							<li><a href = "giraffetour.html">Giraffe tour</a></li>
+						</ul>
+					</li>
+					
+					<li id = "menuli"><p class = "underlinetext">Destinations</p>
+						<ul>
+							<li><a href = "southafrica.html">South Africa</a></li>
+							<li><a href = "kenya.html">Kenya</a></li>
+						</ul>
+					</li>
+					
+					<li id = "menuli"><a href = "specialoffer.html">Special offers</a></li>
+					
+					<li id = "menuli"><a href = "booking.html">Booking a trip</a></li>
+					<li id = "menuli"><a href = "messageboard.html">Message Board</a></li>
+					<li id = "menuli"><a href = "policies.html">Policies</a></li>
+					<li id = "menuli"><a href = "aboutus.html">About us</a></li>
+					<li id = "menuli"><a href = "contactus.html">Contact us</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div id = trackbar>
+		<p class = "content">You are at: <a class="content" href="index.html">Home</a>  > <a class="content" href="booking.html">Booking a trip</a></p>
+		</div>
+		
+		<div id = lmenu>
+			<ul>
+				<li id = "leftliBig"><a href = "liontour.html">Lion tour</a></li>
+					<ul>
+						<li id = "leftliSmall"><a href = "liontourSch.html">Schedule</a></li>
+					</ul>
+					<br>
+					<br>
+				<li id = "leftliBig"><a href = "zebratour.html">Zebra tour</a></li>
+					<ul>
+						<li id = "leftliSmall"><a href = "zebratourSch.html">Schedule</a></li>
+						<li id = "leftliSmall"><a href = "zebratourImg.html">Images</a></li>
+					</ul>
+					<br>
+					<br>
+				<li id = "leftliBig"><a href = "giraffetour.html">Giraffe tour</a></li>
+			</ul>
+		</div>
+		
+		<div id = bigdiv>
+			<form name="myForm">
+				<h2 class = "policyHeadings">Booking form</h2>
+				<hr>
+				<p class = "content">Please read terms and conditions of booking before complete this form. Send us this form by email or print it out and go to our headquarter in opening hours.</p>
+				<br>
+				<br>
+				<br>
+					<label class="content">Tour Name:</label>
+					<input id="tourName" name="tourName" type="text" maxlength="20" value/>
+					<br>
+					<br>
+					<label class="content">Department date(dd/mm/yyyy):</label>
+					<input id="departmentDate" name="departmentDate" type="text" maxlength="12" value/>
+					<br>
+					<br>
+					<label class="content">Last Name:</label>
+					<input id="lastName" name="lastName" type="text" maxlength="30" value/>
+					
+					<label class="content">First Name:</label>
+					<input id="firstName" name="firstName" type="text" maxlength="30" value/>
+					<br>
+					<br>
+					<label class="content">Middle Name(optional):</label>
+					<input id="middleName" name="middleName" type="text" maxlength="30" value/>
+					<br>
+					
+					<p class="content">
+					<label class="content">Sex:</label>
+					 	     <input type="radio" name="sex" id="male" />Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+					 	      <input type="radio" name="sex" id="female" />Female
+					 	   </p>
+					 	   
+					<label class="content">Date of Birth(dd/mm/yyyy):</label>
+					<input id="DOB" name="DOB" type="text" maxlength="12" value/>
+					<br>
+					<br>
+					<label class="content">Passport number:</label>
+					<input id="passport" name="passport" type="text" maxlength="15" value/>
+					<br>
+					<br>
+					<label class="content">Address:</label>
+					<input id="address" name="address" type="text" maxlength="100" value/>
+					<br>
+					<br>
+					<label class="content">Telephone number:</label>
+					<input id="phone" name="phone" type="text" maxlength="15" value/>
+					
+					<label class="content">Mobile:</label>
+					<input id="mobile" name="mobile" type="text" maxlength="15" value/>
+					<br>
+					<br>
+					<label class="content">Email:</label>
+					<input id="email" name="email" type="text" maxlength="30" value/>
+					<br>
+					<br>
+					<label class="content">Nationality:</label>
+					<input id="nationality" name="nationality" type="text" maxlength="50" value/>
+					<br>
+					<br>
+					<label class="content">How do you like we contact you?</label>
+					       <p class="content">
+					          <input type="checkbox" name="contactMethod" id="callA" value="Clowning1"/>Call me at any time
+					       </p>
+					       <p class="content">
+					 	      <input type="checkbox" name="contactMethod" id="callB" value="Floor Acrobatics1"/>Call me in business hours
+					 	   </p>
+					 	   <p class="content">
+					 	      <input type="checkbox" name="contactMethod" id="textMe" value="Me and That1"/>Text me 
+					 	   </p>
+						   <p class="content">
+					 	      <input type="checkbox" name="contactMethod" id="emailMe" value="Me and That1"/>Email me 
+					 	   </p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<label class="content">Signed:</label>
+					<input id="sign" name="sign" type="text" maxlength="15" value/>
+					<br>
+					<br>
+					<label class="content">Date of Issue(dd/mm/yyyy):</label>
+					<input id="DOI" name="DOI" type="text" maxlength="12" value/>
+					<br>
+					<br>
+					<hr>
+					<p class = "content">Note: Should your application not be accepted due to overbooking or for reasons out of control, we will inform you our next available tour.</p>
+					
+					<p><button class="submitButton" type="submit" onclick="validateForm()"><span class="content">Submit</span></button></p>
+			</form>
+		</div>
+		
+		<div id = footer>
+		<p class="footerp"> 2015 Kiboko travel agency </p>
+		<p class="footerp">Company phone:07 1441 2882</p>
+		<p class="footerp">Email:kibokotravels@gmail.com</p>
+		<p class="footerp">headquarters location: Level 8, 17 Melbourne Street, West End, 4101 QLD</p>
+		<hr>
+		
+		<p> <a class="foot" href="index.html"> Back Home </a></p>
+		<p> <a class= "foot" href="#menu">To Top</a></p>
+		</div>
+	</div>
+</body>
+
+</html>

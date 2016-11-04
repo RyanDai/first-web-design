@@ -1,0 +1,70 @@
+
+li {
+	list-style-type:none
+}
+.column1_left {
+	
+	width:650px;
+	margin:0 auto;
+	text-align:center;
+	padding:0px;
+	
+}
+.container, .container * {
+	width:625px;
+	margin:0px;
+	padding:0px;
+	
+}
+.container2 {
+	width:625px;
+	height:450px;
+	overflow:hidden;
+	position:relative;
+}
+.slider li {
+	list-style:none;
+	display:inline;
+	width:650px;
+	
+}
+.slider img {
+	width:600px;
+	height:450px;
+	display:block;
+	border:0;
+	
+}
+.slider {
+}
+.slider2 {
+}
+.slider2 li {
+	float:left;
+	
+	
+}
+.num {
+	position:absolute;
+	right:5px;
+	bottom:5px;
+	height:20px;
+}
+.num li {
+	float: left;
+	width:20px;
+	height:20px;
+	background:url(../Images/ink531hui.png) no-repeat center center;
+	_background:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/ink531hui.png', sizingMethod='crop');
+	cursor: pointer;
+	overflow: hidden;
+}
+.num li.on {
+	background:url(../Images/ink531hui1.png) no-repeat center center;
+	_background:none;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/ink531hui1.png', sizingMethod='crop');
+	width:21px;
+	height:20px;
+}
+

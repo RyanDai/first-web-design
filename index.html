@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'/>
+    <title>Kiboko travel agency</title>
+	<link rel="stylesheet" href="css/style.css"  type='text/css' >
+	<link href="css/gallery.css" type="text/css" rel="stylesheet">
+	<script src="js/booking.js" type="text/javascript"></script>
+	<!--the javascript:gallery.js used is downloaded from 
+	<http://www.lanrenzhijia.com/banner/363.html> Author: lanrenzhijia  Date:29-06-2012-->
+	
+</head>
+
+<body>
+    <div id = container>
+		<div id = banner>
+		<img class="logo" src="Images/newlogo2.png"  alt="logo">
+		<p id = phoneNumber>Phone:07 1441 2882</p>
+		<h1>Kiboko</h1>
+		<br>
+		
+		<form name="loginForm" id = "loginForm">
+		<p class = "whitecontent">Already booked a trip? Login in with your passport and last name here</p>
+			<label class="whitecontent">Passport number:</label>
+					<input id="passport" name="passport" type="text" maxlength="15" value/>
+					<br>
+					<br>
+					<label class="whitecontent">Last Name:</label>
+					<input id="lastName" name="lastName" type="text" maxlength="30" value/>
+					<p><button class="loginButton" type="submit" onclick="validateForm2()"><span class="content">Sign in</span></button></p>
+		</form>			
+		
+		</div>
+		<div id = menu>
+			<nav>
+				<ul>
+					<li id = "menuli"><p class = "underlinetext">Tours</p>
+						<ul>
+							<li><a href = "liontour.html">Lion tour</a></li>
+							<li><a href = "zebratour.html">Zebra tour</a></li>
+							<li><a href = "giraffetour.html">Giraffe tour</a></li>
+						</ul>
+					</li>
+					
+					<li id = "menuli"><p class = "underlinetext">Destinations</p>
+						<ul>
+							<li><a href = "southafrica.html">South Africa</a></li>
+							<li><a href = "kenya.html">Kenya</a></li>
+						</ul>
+					</li>
+					
+					<li id = "menuli"><a href = "specialoffer.html">Special offers</a></li>
+					
+					<li id = "menuli"><a href = "booking.html">Booking a trip</a></li>
+					<li id = "menuli"><a href = "messageboard.html">Message Board</a></li>
+					<li id = "menuli"><a href = "policies.html">Policies</a></li>
+					<li id = "menuli"><a href = "aboutus.html">About us</a></li>
+					<li id = "menuli"><a href = "contactus.html">Contact us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id = gallery>
+				<div class="column1_left">
+				<div class="container2" id="idTransformView2">
+				<ul class="slider slider2" id="idSlider2">
+					 <li><img src="images/img009.jpg"  alt = "img009"></li>
+					<li><img src="images/gallery2.jpg" alt = "gallery2"></li>
+					<li><img src="images/gallery3.jpg"  alt = "gallery3"></li>
+					<li><img src="images/gallery4.jpg"  alt = "gallery4"></li>
+				</ul>
+				<ul class="num" id="idNum2">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				</div>
+		<script type="text/javascript" src="js/gallery.js"></script>
+		<!--the javascript:gallery.js used is downloaded from 
+	<http://www.lanrenzhijia.com/banner/363.html> Author: lanrenzhijia  Date:29-06-2012-->
+			</div>	
+		</div>
+		
+		<div id = news>
+		<h2 class = "news">News</h2>
+		<p class = "content">New tour:Spanning eight countries, this journey is full of diverse cultures, abundant wildlife, spectacular landscapes, stunning beaches and loads of adventure. Track the Big Five across open savannah, explore the Okavango Delta in a dug-out mokoro canoe, encounter gorillas deep in the Ugandan wilderness-do it all on this ultimate 8 weeks adventure and get a real feel for how large Africa really is. </p>
+		</div>
+		<div class="clear"></div>
+		<div id = specialOffers>
+		<h2 class = "smallHeadings">Special offers</h2>
+		<a href = "specialoffer.html"><p class = trynow>TRY NOW</p></a>
+		
+
+		</div>
+		<div id = popularTour>
+		<h2 class = "smallHeadings">Popular tour: Zebra tour</h2>
+		<a href = "zebratour.html"><p class = trynow>TRY NOW</p></a>
+		</div>
+		
+		<div id = footer>
+		<p class="footerp"> 2015 Kiboko travel agency </p>
+		<p class="footerp">Company phone:07 1441 2882</p>
+		<p class="footerp">Email:kibokotravels@gmail.com</p>
+		<p class="footerp">headquarters location: Level 8, 17 Melbourne Street, West End, 4101 QLD</p>
+		<hr>
+		
+		
+		<p> <a class="foot" href="index.html"> Back Home </a></p>
+		<p> <a class= "foot" href="#menu">To Top</a></p>
+		</div>
+		
+	</div>
+</body>
+</html>
